@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: url(nen.jpg);
+}
+
+
+.topnav #home {
+	background-color: #0000ff;
+}
+
+.topnav #admin {
+	color: #ff8040;
+	background-color: #408080;
+}
+
+.topnav #admin b {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.topnav #logout {
+	background-color: #fd8c02;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #408080;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.leftnav {
+	overflow: hidden;
+	background-color: #408080;
+	margin-top: 20px;
+	float: left;
+	height: 100%;
+	width: 150px;
+	position: fixed;
+}
+
+.leftnav a {
+	display: block;
+	color: black;
+	text-align: left;
+	padding: 14px 16px;
+}
+
+.leftnav a:hover {
+	color: white;
+}
+
+.content {
+	float: left;
+	padding-left: 150px;
+	width: 50%;
+}
+
+.table1 {
+	padding: 20px 0px 0px 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #9282fd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
